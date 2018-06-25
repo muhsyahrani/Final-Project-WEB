@@ -1,0 +1,36 @@
+.brand img{
+	max-height: 80px;
+    max-width: 100%;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+.head {
+	height: 100vh;
+  	background-image: url(img/bg4.png);
+    size: cover;
+    position: center;
+  	margin-bottom: 50px;
+  	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.parallax {
+    min-height: 400px;
+    background: transparent;
+}
+
+.judul {
+	z-index: 2;
+	position: relative;
+	padding: 100px 35px;
+	color: #fff;
+}
+
+p {
+	width: 600px;
+	margin: 0 auto 20px;
+}
